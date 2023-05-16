@@ -1,3 +1,10 @@
+/* For defining color schemes  */
+:root {
+    --main-color: #FFFFFF;
+    --secondary-color: #FFFFFF;
+    --teritary-color: #FFFFFF;
+}
+
 
 body {
     margin: 0;
@@ -112,6 +119,7 @@ h3 a:hover {
 
 
 /* All Divs that use Montserrat Font  */
+
 .Montserrat {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -119,10 +127,14 @@ h3 a:hover {
     }
     
     .slideshow-container {
-        width: 100%;
+        width: 70%;
         height: 500px; /* set the height to your desired value */
         position: relative;
         margin: auto;
+    }
+
+    .highlight {
+        width: 100%;
     }
 
     .slideshow {
