@@ -50,7 +50,7 @@ ul span {
 }
 
 .line {
-  border: 5px 10px solid black;
+  border: 1px  solid black;
 }
 
 main {
@@ -98,6 +98,7 @@ main {
   margin-bottom: 100px;
   backface-visibility: hidden;
   border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
 }
 
 .box img {
