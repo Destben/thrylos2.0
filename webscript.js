@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
     var slideshow = $('.slideshow');
     var slides = slideshow.find('img');
