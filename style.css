@@ -38,8 +38,19 @@ nav a:hover {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   list-style: none;
+  margin-right: 100px;
+  padding-right: 100px;
+  gap: 50px;
+}
+ul span {
+  float: none;
+  margin-left: 0;
+}
+
+.line {
+  border: 5px 10px solid black;
 }
 
 main {
