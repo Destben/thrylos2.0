@@ -149,7 +149,7 @@ h3 a:hover {
     position: relative;
     margin: auto;
 
-    overflow:scroll;
+    overflow-y: scroll;
   }
   
   .slideshow img {
