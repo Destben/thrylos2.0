@@ -21,7 +21,6 @@ function change_slides() {
     } else {
         slides_selection = 0;
         slides[0].style.display = 'block'
-        slides[slides_max].style.display = 'none';
     }
 }
 
