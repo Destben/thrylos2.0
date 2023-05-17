@@ -2,7 +2,7 @@ var slideshow = document.querySelector('.slideshow')
 var slides = slideshow.children;
 var slides_max = slides.length;
 var slides_selection = 0;
-var slide_change_interval = window.setInterval(change_slides, 3000)
+var slide_change_interval = window.setInterval(change_slides, 5000)
 
 function on_ready() {
     Array.prototype.forEach.call(slideshow.children, child => {

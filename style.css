@@ -138,7 +138,7 @@ h3 a:hover {
     }
 
     .slideshow {
-        overflow-x: scroll;
+        overflow-x: scroll; 
 
         width: 100%;
 
@@ -178,7 +178,7 @@ h3 a:hover {
 
 /* Animation CSS Classes */
 .hide-to-show {
-    animation-duration: 3s;
+    animation-duration: 5s;
 	animation-name: hide-to-show;
 	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
