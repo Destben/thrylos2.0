@@ -17,6 +17,13 @@ header {
   z-index: 100;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
 
 nav li:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -28,12 +35,12 @@ nav a {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  padding: 42px;
+  padding: 24px;
 }
 
 nav a:hover {
   color: #fff;
-  background-color: #ff6f69;;
+  background-color: #ff6f69;
 }
 
 nav ul {
@@ -116,6 +123,7 @@ main {
   margin-bottom: 20px;
 }
 
+
 .body {
     background-image: linear-gradient(to bottom, white, #eee);
 }
@@ -182,3 +190,5 @@ h3 a:hover {
   .active {
     background-color: #fff;
   }
+  
+  
