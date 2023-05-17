@@ -8,6 +8,7 @@ function on_ready() {
     Array.prototype.forEach.call(slideshow.children, child => {
         console.log(child)
         child.style.display = 'none'
+        child.classList.add('hide-to-show')
     })
     slides[0].style.display = 'block';
 }
@@ -22,7 +23,6 @@ function change_slides() {
         slides[0].style.display = 'block'
         slides[slides_max].style.display = 'none';
     }
-    
 }
 
 on_ready()

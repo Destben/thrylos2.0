@@ -175,3 +175,25 @@ h3 a:hover {
     .active {
         background-color: #fff;
     }
+
+/* Animation CSS Classes */
+.hide-to-show {
+    animation-duration: 3s;
+	animation-name: hide-to-show;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes hide-to-show {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
